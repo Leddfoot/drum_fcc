@@ -4,6 +4,7 @@ const DrumPad = (props) => {
     
     function playSound (){
         props.playSound(null, props.letter)
+        console.log(777777)
     }
 
 
